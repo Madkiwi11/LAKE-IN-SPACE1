@@ -7,14 +7,6 @@
     <style>
 
 
-
-
-
-
-
-
-
-
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Oxygen:300");
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
@@ -357,25 +349,58 @@ section {
       
         h1 {
             text-align: center;
-            color: #fff; /* Heading color */
+            color: #fff; 
         }
         .section {
-            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+            background-color: rgba(0, 0, 0, 0.7); 
             border-radius: 5px;
             padding: 20px;
             margin: 20px 0;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
         }
         h2 {
-            color: #0984a3; /* Heading color */
+            color: #0984a3; 
         }
         ul {
-            list-style-type: none; /* Remove bullets from list */
-            padding: 0; /* Remove padding */
+            list-style-type: none; 
+            padding: 0; 
         }
         p {
-            line-height: 1.6; /* Increase line height for better readability */
+            line-height: 1.6; 
         }
+
+
+        .image-gallery {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.responsive-image {
+    width: 50%;
+    max-width: 1000px;
+    height: auto;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .responsive-image {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+
+
     </style>
 </head>
 <body>
@@ -438,6 +463,11 @@ section {
         <h2>Conclusions:</h2>
         <p>The increasing energy levels indicate that life in our oceanic world is well-adapted. Hydrothermal vents play a vital role in supporting life by providing nutrients and energy. This dynamic ecosystem demonstrates the importance of the food pyramid, where each level depends on the one below it for survival. When planning to introduce new organisms, they should also be designed to thrive near these mineral-rich vents, ensuring a stable environment for life to flourish.</p>
     </div>
-
+    <div class="image-gallery">
+        <div class="image-container">
+            <img src="da.png" alt="Image 1" class="responsive-image">
+        </div>
+    </div>
+    
 </body>
 </html>
